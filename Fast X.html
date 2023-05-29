@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fast X</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #373b69;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+        }
+        
+        .section {
+            margin-bottom: 20px;
+        }
+        
+        .section-heading {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        
+        .section-content {
+            font-size: 15px;
+            line-height: 2.0;
+        }
+        
+        #trailer {
+            width: 100%;
+            height: 400px;
+        }
+
+        .movie-poster {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fast X</h1>
+        
+        <div class="movie-poster">
+            <img src="WB41.jpg" alt="">
+        </div>
+        
+        <div class="section">
+            <div class="section-heading">Genre:</div>
+            <div class="section-content">Action, Thriller</div>
+        </div>
+        
+        <div class="section">
+            <div class="section-heading">Cast:</div>
+            <div class="section-content">
+                <ul>
+                    <li>Actor 1</li>
+                    <li>Actor 2</li>
+                    <li>Actor 3</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="section-heading">Release:</div>
+            <div class="section-content">Fast X is an adrenaline-pumping action thriller that follows a group of skilled drivers who find themselves caught in a high-stakes race against time. With dangerous heists, intense car chases, and unexpected twists, this movie delivers non-stop excitement.</div>
+        </div>
+        
+        <div class="section">
+            <div class="section-heading">Plot:</div>
+            <div class="section-content">Dominic Toretto and his team are requested by the Agency to steal a computer chip during its transit in Rome. Dom and his wife Letty Ortiz stay behind with his son Brian "Little B" Marcos, while the rest of the team travel to Rome. However, a wounded Cipher arrives at Dom's home and informs him that Dante Reyes, the son of drug lord Hernan Reyes, has turned her crew against her by threatening their families and is using them to target Dom in revenge for his father's death and the loss of his family's fortune ten years prior. Little Nobody takes Cipher into custody but reveals to Dom and Letty that there is no Agency mission in Rome. Realizing that Dante set them up, Dom and Letty go to rescue the team.</div>
+        </div>
+        
+        <div class="section">
+            <div class="section-heading">Trailer:</div>
+            <div class="section-content">
+                <video id="trailer" controls>
+                    <source src="fastx_trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var video = document.getElementById("trailer");
+
+        // Auto play the video when the page is loaded
+        window.onload = function() {
+            video.play();
+        };
+    </script>
+</body>
+</html>
